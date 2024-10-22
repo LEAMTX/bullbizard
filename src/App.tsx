@@ -7,8 +7,9 @@ import MyTitle from "./MyTitle";
 
 function App() {
   return (
-    <div><PokemonCard/> 
-    <MyTitle />
+    <div>
+      <PokemonCard/> 
+      <MyTitle />
     </div>
   );
 }
