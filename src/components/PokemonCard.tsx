@@ -2,7 +2,7 @@
 interface PokemonProps {
   //on définit l'object pokemon;
   pokemon: {
-    imgSrc: string;
+    imgSrc?: string;
     name: string;
   };
 }
