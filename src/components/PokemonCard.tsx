@@ -1,6 +1,6 @@
 //props
 interface PokemonProps {
-  //on définit l'object pokemon;
+  //on définit l'object pokemon; pokemon est de type pokemonProps
   pokemon: {
     imgSrc?: string;
     name: string;
@@ -21,6 +21,7 @@ interface PokemonProps {
 //const pokemon = pokemonList[1]; //on prend le premier pokemon de ma liste
 
 function PokemonCard({ pokemon }: PokemonProps) {
+  // vas me chercher l'object pokemon de type pokemonCard
   //À l'intérieur de la fonction PokemonCard, crée une variable appelée pokemon : affecte-lui le premier Pokémon du tableau pokemonList.
   //appelle le nom de chq pokemon du tableau object.clef :<figcaption> {pokemon.name} </figcaption>
   // <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Bulbasaur" />
