@@ -1,6 +1,6 @@
 //props
 interface PokemonProps {
-  //on définit l'object personne;
+  //on définit l'object pokemon;
   pokemon: {
     imgSrc: string;
     name: string;
